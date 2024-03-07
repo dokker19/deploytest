@@ -3,11 +3,11 @@ const app = express();
 require('dotenv').config();
 
 
-const PORT=process.env.PORT || 3000;
+const PORT=process.env.PORT
 console.log(PORT)
 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.json("Hello!")
 })
 
 app.listen(PORT, () => {
