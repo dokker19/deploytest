@@ -20,5 +20,8 @@
   "homepage": "https://github.com/dokker19/deploytest#readme",
   "dependencies": {
     "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
   }
 }
